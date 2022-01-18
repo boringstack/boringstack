@@ -2,7 +2,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setUseGitIgnore(false);
   eleventyConfig.addWatchTarget('./src/css/tailwind.css');
   eleventyConfig.addPassthroughCopy('./src/img');
-  eleventyConfig.addPassthroughCopy({ "./src/img/favicon": "/" });
   return {
     dir: {
       input: 'src',
