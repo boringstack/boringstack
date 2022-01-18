@@ -34,7 +34,6 @@
     "tailwindcss": "^3.0.13"
   },
   "dependencies": {
-    "@splitbee/web": "^0.3.0",
-    "eleventy-favicon": "^1.1.2"
+    "@splitbee/web": "^0.3.0"
   }
 }
