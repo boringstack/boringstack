@@ -8,4 +8,12 @@ module.exports = function(eleventyConfig) {
       output: 'public'
     }
   }
+  const faviconPlugin = require("eleventy-favicon");
+
+module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(faviconPlugin, options);
+};
 }
+
+
+
