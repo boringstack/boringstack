@@ -2,18 +2,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setUseGitIgnore(false);
   eleventyConfig.addWatchTarget('./src/css/tailwind.css');
   eleventyConfig.addPassthroughCopy('./src/img');
+  eleventyConfig.addPassthroughCopy({ "img/favicon": "/" });
   return {
     dir: {
       input: 'src',
       output: 'public'
     }
   }
-  const faviconPlugin = require("eleventy-favicon");
-
-module.exports = function (eleventyConfig) {
-  eleventyConfig.addPlugin(faviconPlugin, options);
-};
 }
-
-
-
