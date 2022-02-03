@@ -1,4 +1,4 @@
-# PEREZRE 🛩
+# Create a Serverless Website with 11ty & TailwindCSS 
 It’s (j)ust (e)leventy and (t)ailwind … OK, and a few other things; it’s still *really* small though.
 
 ## Goal
