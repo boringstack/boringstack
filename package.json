@@ -36,6 +36,6 @@
   },
   "dependencies": {
     "@splitbee/web": "^0.3.0",
-    "speedlify-score": "^2.0.2"
+    "speedlify-score": "^3.0.0"
   }
 }
